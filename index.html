@@ -4,35 +4,632 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <title>Go Green</title>
-  <link rel="stylesheet" href="css/all.css">
+   <link rel="icon" href="images/logo.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
 </head>
 <body>
-<nav>
-    <div class="top-nav">
-    <ul>
-      <li><i class="fab fa-twitter"></i></li>
-           <li><i class="fab fa-skype"></i></li>
+  <!--top-nav-->
+  <nav class="navbar navbar-expand-lg color">
+    <div class="container">
+     <div class="menu">
+       <ul>
+         <li><i class="fab fa-twitter"></i></li>
+         <li><i class="fab fa-skype"></i></li>
          <li><i class="fab fa-linkedin-in"></i></li>
-           <li><i class="fab fa-google-plus-g"></i></li>
+         <li><i class="fab fa-google-plus-g"></i></li>
          <li><i class="fab fa-youtube"></i></li>
-           <li><i class="fab fa-facebook"></i></li>
-          <li><i class="fab fa-pinterest"></i></li>
-            <li><i class="fas fa-map-marker-alt">One Infinity Loop Av,Tk 123456</i></li>
-          <li><i class="fas fa-phone-alt"></i> 123456789</li>
-          <li><i class="far fa-envelope"></i> gogreencompany@gmail.com</li>
-        </ul>
-    <ul>
-      <li><a href="#"></a><i class="fas fa-dollar-sign"></i> Currency
-     
-      </li>
-      <li><i class="fas fa-flag-usa"></i> Language</li>
-    </ul>
+         <li> <i class="fab fa-pinterest"></i></li>
+         <li> <i class="fab fa-facebook-f"></i></li>
+         <li> <i class="fas fa-map-marker-alt"> One Infinity Loop Av, Tk 123456</i></li>
+         <li><i class="fas fa-phone-alt"> 123456789</i></li>
+         <li><i class="far fa-envelope"> gogreencompany@gmail.com</i></li>
+       </ul>
+     </div>
+
+
+        <form class="d-flex">
+        
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-dollar-sign"></i>
+                Currency
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#"><i class="fas fa-euro-sign"></i> Euro</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fas fa-rupee-sign"></i> Indian Rupee</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fas fa-dollar-sign"></i> Us Doller</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fas fa-pound-sign"></i> Pound Sterling</a></li>
+              </ul>
+            </li>
+          
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-flag-usa"></i>
+             Language
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Arabic</a></li>
+              <li><a class="dropdown-item" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">Polish</a></li>
+              <li><a class="dropdown-item" href="#">Spain</a></li>
+              <li><a class="dropdown-item" href="#">French</a></li>
+              <li><a class="dropdown-item" href="#">Italian</a></li>
+              <li><a class="dropdown-item" href="#">German</a></li>
+              <li><a class="dropdown-item" href="#">Swedish</a></li>
+            </ul>
+          </li>
+          
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+<!--second nav-->
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    
+
+    <div class="container">
+     <img src="images/logo.png" alt="">
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              
+               VEGETABLES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">BROCCOLI (15)</a></li>
+                <li><a class="dropdown-item" href="#">CUCUMBER (5)</a></li>
+                <li><a class="dropdown-item" href="#">BRINJAL (12)</a></li>
+                <li><a class="dropdown-item" href="#">GREEN APPLE (6)</a></li>
+                <li><a class="dropdown-item" href="#">MANGO (23)</a></li>
+                <li><a class="dropdown-item" href="#">METHI (10)</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">GINGER</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                KIWI-GREEN
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">BANANA (10)</a></li>
+                <li><a class="dropdown-item" href="#">AVOCADO (13)</a></li>
+                <li><a class="dropdown-item" href="#">PARWAL (14)</a></li>
+                <li><a class="dropdown-item" href="#">GARLIC (32)</a></li>
+                <li><a class="dropdown-item" href="#"> KIWI - RED (8)</a></li>
+                <li><a class="dropdown-item" href="#">SAPOTA (5)</a></li>
+                <li><a class="dropdown-item" href="#">SWEET CORN (9)</a></li>
+              </ul>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="#">LEMON</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">APPLE</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <ul>
+              <li><i class="fas fa-user-alt"></i></li>
+              <li><i class="fas fa-search"></i></li>
+              <li><i class="fas fa-shopping-basket"></i></li>
+            </ul>
+          </form>
+        
+        </div>
+    </div>
+  
+  </nav>
+
+
+<!--banner start-->
+
+ <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/pinban1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/pinban2.png" class="d-block w-100" alt="...">
+      </div>
+     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!--shop now-->
+
+
+<section id="shop">
+  <div class="container">
+    <div class="flexbox">
+      <div class="flex1"><img src="images/370x200-01-370x200.png" alt=""></div>
+      <div class="flex2"><img src="images/370x200-03-370x200.png" alt=""></div>
+      <div class="flex3"><img src="images/370x200-370x200.png" alt=""></div>
+    </div>
+  </div>
+</section>
+
+
+ <!--trending-->
+
+<div class="trending">
+  <i class="fas fa-circle"></i>
+  <i class="fas fa-circle"></i>
 </div>
 
+<h2>TRENDING SECTION</h2>
+
+<div class="FBT">
+  <ul>
+<li><h3>FEATURED</h3></li>
+<li><h3>BEST SELLER</h3></li>
+<li><h3>LATEST</h3></li>
+</ul>
+</div>
+<!--pic section-->
+
+
+ <section>
+  
     
-</nav>
+   <div class="card" style="width: 18rem;">
+    <img src="images/graps.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">GRAPS</h5>
+      <div class="produts-info">
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star filled"></i>
+      </div>
+      <p>$26</p>
+      </div>
+    </div>
+
+
+
+    <div class="card" style="width: 18rem;">
+      <img src="images/beans.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">BEANS</h5>
+        <div class="produts-info">
+          <i class="fas fa-star filled"></i>
+          <i class="fas fa-star filled"></i>
+          <i class="fas fa-star filled"></i>
+          <i class="fas fa-star unfilled"></i>
+          <i class="fas fa-star unfilled"></i>
+        </div>
+        <p>$46</p>
+      </div>
+    </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="images/cherry.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">CHERRY</h5>
+      <div class="produts-info">
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star unfilled"></i>
+        <i class="fas fa-star unfilled"></i>
+        <i class="fas fa-star unfilled"></i>
+        <i class="fas fa-star unfilled"></i>
+      </div>
+      <p>$10</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="images/guava.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">GUAVA</h5>
+      <div class="produts-info">
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star unfilled"></i>
+      </div>
+      <p>$15</p>
+     </div>
+  </div>
+
+
+  <div class="card" style="width: 18rem;">
+    <img src="images/papaya.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">PAPAYA</h5>
+      <div class="produts-info">
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star unfilled"></i>
+        <i class="fas fa-star unfilled"></i>
+      </div>
+      <p>$46</p>
+    </div>
+  </div>
+  
+ </section>
+<!---->
+
+<section>
+
+
+<div class="card" style="width: 18rem;">
+  <img src="images/banana.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">BANANA</h5>
+    <div class="produts-info">
+      <i class="fas fa-star filled"></i>
+      <i class="fas fa-star filled"></i>
+      <i class="fas fa-star filled"></i>
+      <i class="fas fa-star filled"></i>
+      <i class="fas fa-star filled"></i>
+    </div>
+    <p>$26</p>
+    </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="images/cherry.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">CHERRY</h5>
+    <div class="produts-info">
+      <i class="fas fa-star filled"></i>
+      <i class="fas fa-star unfilled"></i>
+      <i class="fas fa-star unfilled"></i>
+      <i class="fas fa-star unfilled"></i>
+      <i class="fas fa-star unfilled"></i>
+    </div>
+    <p>$10</p>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="images/guava.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">GUAVA</h5>
+    <div class="produts-info">
+      <i class="fas fa-star filled"></i>
+      <i class="fas fa-star filled"></i>
+      <i class="fas fa-star filled"></i>
+      <i class="fas fa-star filled"></i>
+      <i class="fas fa-star unfilled"></i>
+    </div>
+    <p>$15</p>
+   </div>
+</div>
+
+
+
+<div class="card" style="width: 18rem;">
+  <img src="images/beans.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">BEANS</h5>
+    <div class="produts-info">
+      <i class="fas fa-star filled"></i>
+      <i class="fas fa-star filled"></i>
+      <i class="fas fa-star filled"></i>
+      <i class="fas fa-star unfilled"></i>
+      <i class="fas fa-star unfilled"></i>
+    </div>
+    <p>$46</p>
+  </div>
+</div>
+
+
+
+<div class="card" style="width: 18rem;">
+  <img src="images/papaya.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">PAPAYA</h5>
+    <div class="produts-info">
+      <i class="fas fa-star filled"></i>
+      <i class="fas fa-star filled"></i>
+      <i class="fas fa-star filled"></i>
+      <i class="fas fa-star unfilled"></i>
+      <i class="fas fa-star unfilled"></i>
+    </div>
+    <p>$46</p>
+  </div>
+</div>
+</section>
+ <!---->
+
+<section>
+
+
+  <div class="card" style="width: 18rem;">
+    <img src="images/graps.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">GRAPS</h5>
+      <div class="produts-info">
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star filled"></i>
+      </div>
+      <p>$26</p>
+      </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="images/cherry.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">CHERRY</h5>
+      <div class="produts-info">
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star unfilled"></i>
+        <i class="fas fa-star unfilled"></i>
+        <i class="fas fa-star unfilled"></i>
+        <i class="fas fa-star unfilled"></i>
+      </div>
+      <p>$10</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="images/guava.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">GUAVA</h5>
+      <div class="produts-info">
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star unfilled"></i>
+      </div>
+      <p>$15</p>
+     </div>
+  </div>
+  
+  
+  
+  <div class="card" style="width: 18rem;">
+    <img src="images/beans.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">BEANS</h5>
+      <div class="produts-info">
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star unfilled"></i>
+        <i class="fas fa-star unfilled"></i>
+      </div>
+      <p>$46</p>
+    </div>
+  </div>
+  
+  
+  
+  <div class="card" style="width: 18rem;">
+    <img src="images/papaya.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">PAPAYA</h5>
+      <div class="produts-info">
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star filled"></i>
+        <i class="fas fa-star unfilled"></i>
+        <i class="fas fa-star unfilled"></i>
+      </div>
+      <p>$46</p>
+    </div>
+  </div>
+</section>
+
+<!---->
+
+  <section>
+  
+    <div class="card" style="width: 18rem;">
+     <img src="images/graps.jpg" class="card-img-top" alt="...">
+     <div class="card-body">
+       <h5 class="card-title">GRAPS</h5>
+       <div class="produts-info">
+         <i class="fas fa-star filled"></i>
+         <i class="fas fa-star filled"></i>
+         <i class="fas fa-star filled"></i>
+         <i class="fas fa-star filled"></i>
+         <i class="fas fa-star filled"></i>
+       </div>
+       <p>$26</p>
+       </div>
+     </div>
+ 
+ 
+ 
+     <div class="card" style="width: 18rem;">
+       <img src="images/beans.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">BEANS</h5>
+         <div class="produts-info">
+           <i class="fas fa-star filled"></i>
+           <i class="fas fa-star filled"></i>
+           <i class="fas fa-star filled"></i>
+           <i class="fas fa-star unfilled"></i>
+           <i class="fas fa-star unfilled"></i>
+         </div>
+         <p>$46</p>
+       </div>
+     </div>
+ 
+   <div class="card" style="width: 18rem;">
+     <img src="images/cherry.jpg" class="card-img-top" alt="...">
+     <div class="card-body">
+       <h5 class="card-title">CHERRY</h5>
+       <div class="produts-info">
+         <i class="fas fa-star filled"></i>
+         <i class="fas fa-star unfilled"></i>
+         <i class="fas fa-star unfilled"></i>
+         <i class="fas fa-star unfilled"></i>
+         <i class="fas fa-star unfilled"></i>
+       </div>
+       <p>$10</p>
+     </div>
+   </div>
+   <div class="card" style="width: 18rem;">
+     <img src="images/guava.jpg" class="card-img-top" alt="...">
+     <div class="card-body">
+       <h5 class="card-title">GUAVA</h5>
+       <div class="produts-info">
+         <i class="fas fa-star filled"></i>
+         <i class="fas fa-star filled"></i>
+         <i class="fas fa-star filled"></i>
+         <i class="fas fa-star filled"></i>
+         <i class="fas fa-star unfilled"></i>
+       </div>
+       <p>$15</p>
+      </div>
+   </div>
+ 
+ 
+   <div class="card" style="width: 18rem;">
+     <img src="images/papaya.jpg" class="card-img-top" alt="...">
+     <div class="card-body">
+       <h5 class="card-title">PAPAYA</h5>
+       <div class="produts-info">
+         <i class="fas fa-star filled"></i>
+         <i class="fas fa-star filled"></i>
+         <i class="fas fa-star filled"></i>
+         <i class="fas fa-star unfilled"></i>
+         <i class="fas fa-star unfilled"></i>
+       </div>
+       <p>$46</p>
+     </div>
+   </div>
+  </section>
+
+<!--midbanner-->
+
+
+<div class="midbanner">
+  <div class="container">
+    <div class="col-md-12"><img src="images/midban.png" class="img-fluid w-100" alt=""></div>
+  </div>
+</div>
+
+
+
+
+
+<!--footer-->
+<footer>
+  <div class="container">
+      <div class="row">
+          <div class="col-md-3">
+              <div class="footer">
+                  <h5>EXTRAS</h5>
+                  <ul>
+                     <li>Brands</li>
+                     <li>Gift Certificate</li>
+                     <li>Affiliate</li>
+                     <li>Specials</li>
+                     <li>Site Map</li> 
+              </ul>
+              </div>
+          </div>
+          <div class="col-md-3">
+                  <div class="footrt">
+                    <ul>
+                      <h5>INFORMATION</h5>
+                      <ul>
+                        <li>About Us</li>
+                        <li>Delivery Information</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                        <li>Contact Us</li>
+                        <li>Site Map</li>
+                      </ul>
+                    </ul>
+                  </div>
+              </div>
+
+
+              <div class="col-md-3">
+                      <div class="footer">
+                          <h5>MY ACCOUNT</h5>
+                      <ul>
+                          <li>My Account</li>
+                          <li>Order History</li>
+                          <li>Wish List</li>
+                          <li>Newsletter</li>
+                          <li>Return</li>
+                         </ul>
+                      </div>
+                  </div>
+
+                          <div class="col-md-3">
+                               <div class="footer">
+                                 <h5>CONTACT US</h5>
+                            <ul>
+                          <li><i class="fas fa-map-marker-alt">42 Dream House, Dreammy street, 7131 Dreamville, USA</i></li>
+                          <li><i class="far fa-envelope"> gogreencompany@gmail.com</i></li>
+                          <li><i class="fas fa-phone-alt">456-456-4512</i></li>
+                         <li>Dream City, USA</li>
+                               </ul>
+                                          </div>
+                                       </div>  
+                                      </div>
+                                     </div>
+                     <div class="foot-bottom">  
+                              <div class="container">
+                                    <div class="row">
+                                       <div class="col-lg-6">
+                                         <div class="foot2">
+                                              <ul>
+                                    <h4>Download Our App</h4>
+                                   <li><a href="#"><img  src="images/app1.png" alt=""></a></li>
+                                   <li><a href="#"><img  src="images/app2.png" alt=""></a></li>
+                                      </ul>
+                                       </div>        
+                                    </div>
+             
+              <div class="col-lg-6">
+                <div class="app">
+                    <ul>
+                      <li><a href="#"><img  src="images/payment.png" alt=""></a></li>
+                     
+                    </ul>
+                </div>
+              </div>
+          </div>
+          </div>
+               </div>
+  </div>
+</footer>
+<!--footer-->
+
+
+
+
+
+
+<!--power -->
+<section>
+  <div class="copy">
+      <p>Powerd By Opencart Your Store @2021</p>
+  </div>
+</section>
+<!--power-->
 
 
 
@@ -42,6 +639,24 @@
 
 
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>
